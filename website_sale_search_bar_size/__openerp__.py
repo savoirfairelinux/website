@@ -34,9 +34,14 @@ Website Sale Search Bar Size
 ============================
 This module resize the search bar to a human usable size.
 
+Disclaimer
+----------
+The size of the bar is hard coded in the view and should not fit
+for responsive design.
+It is mainly a temporary fix in meantime Odoo offers its answer.
+
 Contributors
 ------------
-* Maxime Chambreuil (maxime.chambreuil@savoirfairelinux.com)
 * Jordi RIERA (jordi.riera@savoirfairelinux.com)
 * William BEVERLY (william.beverly@savoirfairelinux.com)
 * Bruno JOLIVEAU (bruno.joliveau@savoirfairelinux.com)
