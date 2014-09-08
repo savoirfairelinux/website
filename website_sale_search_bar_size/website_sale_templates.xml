@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template inherit_id="website_sale.search" id="website_sale_search_bar_size_template"
+                  name="Search Bar Size">
+            <xpath expr="//input[@name='search']" position="attributes">
+                <attribute name="style">width:300px;</attribute>
+            </xpath>
+        </template>
+    </data>
+</openerp>
