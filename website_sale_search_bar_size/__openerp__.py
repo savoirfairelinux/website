@@ -32,7 +32,8 @@
     'description': """
 Website Sale Search Bar Size
 ============================
-This module resize the search bar to a human usable size.
+This module resize the search bar of the shop page in the front office,
+to a human usable size.
 
 Disclaimer
 ----------
