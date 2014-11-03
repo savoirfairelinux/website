@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="products_public_category_remove_entry"
+                  inherit_id="website_sale.products_categories"
+                  active="True"
+                  customize_show="True"
+                  name='Product Categories: Remove "All Products" entry'>
+            <xpath expr="//li" position="replace"/>
+        </template>
+    </data>
+</openerp>
