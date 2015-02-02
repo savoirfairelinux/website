@@ -4,7 +4,7 @@
         <template id="website_crm_mandatory_phone_number_template" name="Phone Number Mandatory"
                   inherit_id="website_crm.contactus_form" customize_show="True">
             <xpath expr="//input[@name='phone']" position="attributes">
-                <attribute name="required">True</attribute>
+                <attribute name="required">Required</attribute>
             </xpath>
         </template>
     </data>
