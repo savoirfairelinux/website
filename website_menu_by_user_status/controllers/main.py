@@ -60,8 +60,8 @@ class Website(Home):
     def _check_template(self, response, page):
         template = request.env['ir.ui.view']
         try:
-            template = http.request.env.ref(response.template,
-                                            raise_if_not_found=False)
+            template = request.website.get_template(response.template)
+
         except Exception:
             logger.exception("Failed to load local template %r", page)
         return template
